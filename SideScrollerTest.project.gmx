@@ -4,7 +4,9 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\sound_In_Light_Of_Darkness</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_player</sprite>
     <sprite>sprites\spr_end_of_map</sprite>
@@ -17,6 +19,8 @@
     <sprite>sprites\spr_start_resume</sprite>
     <sprite>sprites\spr_start_settings</sprite>
     <sprite>sprites\spr_start_credits</sprite>
+    <sprite>sprites\spr_credits_music_by_Jay_Man</sprite>
+    <sprite>sprites\spr_In_Light_Of_Darkness</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
@@ -35,9 +39,13 @@
     <object>objects\obj_start_settings</object>
     <object>objects\obj_start_credits</object>
     <object>objects\obj_room_recorder</object>
+    <object>objects\obj_credits_music_by_Jay_Man</object>
+    <object>objects\obj_credits_In_Light_Of_Darkness</object>
+    <object>objects\obj_title_music</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_start</room>
+    <room>rooms\room_pause</room>
     <room>rooms\room_settings</room>
     <room>rooms\room_credits</room>
     <room>rooms\room0</room>
