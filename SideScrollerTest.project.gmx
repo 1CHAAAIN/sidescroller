@@ -21,6 +21,9 @@
     <sprite>sprites\spr_start_credits</sprite>
     <sprite>sprites\spr_credits_music_by_Jay_Man</sprite>
     <sprite>sprites\spr_In_Light_Of_Darkness</sprite>
+    <sprite>sprites\spr_settings_volume_bar</sprite>
+    <sprite>sprites\spr_settings_volume_slider</sprite>
+    <sprite>sprites\spr_black</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
@@ -42,6 +45,9 @@
     <object>objects\obj_credits_music_by_Jay_Man</object>
     <object>objects\obj_credits_In_Light_Of_Darkness</object>
     <object>objects\obj_title_music</object>
+    <object>objects\obj_settings_volume_bar</object>
+    <object>objects\obj_settings_volume_slider</object>
+    <object>objects\obj_black</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_start</room>
