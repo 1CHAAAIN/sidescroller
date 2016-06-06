@@ -8,48 +8,76 @@
     <sound>sound\sound_In_Light_Of_Darkness</sound>
   </sounds>
   <sprites name="sprites">
-    <sprite>sprites\spr_player</sprite>
-    <sprite>sprites\spr_end_of_map</sprite>
-    <sprite>sprites\spr_ground</sprite>
-    <sprite>sprites\spr_wall</sprite>
-    <sprite>sprites\spr_end</sprite>
-    <sprite>sprites\spr_start_start</sprite>
-    <sprite>sprites\spr_start_exit</sprite>
-    <sprite>sprites\spr_start_back</sprite>
-    <sprite>sprites\spr_start_resume</sprite>
-    <sprite>sprites\spr_start_settings</sprite>
-    <sprite>sprites\spr_start_credits</sprite>
-    <sprite>sprites\spr_credits_music_by_Jay_Man</sprite>
-    <sprite>sprites\spr_In_Light_Of_Darkness</sprite>
-    <sprite>sprites\spr_settings_volume_bar</sprite>
-    <sprite>sprites\spr_settings_fullscreen</sprite>
-    <sprite>sprites\spr_settings_volume_slider</sprite>
-    <sprite>sprites\spr_black</sprite>
+    <sprites name="Menu">
+      <sprite>sprites\spr_start_start</sprite>
+      <sprite>sprites\spr_start_credits</sprite>
+      <sprite>sprites\spr_start_resume</sprite>
+      <sprite>sprites\spr_start_back</sprite>
+      <sprite>sprites\spr_start_settings</sprite>
+      <sprite>sprites\spr_start_exit</sprite>
+      <sprites name="Settings">
+        <sprite>sprites\spr_settings_volume_slider</sprite>
+        <sprite>sprites\spr_settings_volume_bar</sprite>
+        <sprite>sprites\spr_settings_fullscreen</sprite>
+      </sprites>
+      <sprites name="Credits">
+        <sprite>sprites\spr_credits_music_by_Jay_Man</sprite>
+        <sprite>sprites\spr_In_Light_Of_Darkness</sprite>
+      </sprites>
+    </sprites>
+    <sprites name="Gameplay">
+      <sprite>sprites\spr_player</sprite>
+      <sprite>sprites\spr_end_of_map</sprite>
+      <sprite>sprites\spr_ground</sprite>
+      <sprite>sprites\spr_wall</sprite>
+      <sprite>sprites\spr_end</sprite>
+    </sprites>
+    <sprites name="Other">
+      <sprite>sprites\spr_black</sprite>
+    </sprites>
+    <sprites name="GUI">
+      <sprite>sprites\spr_health</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\background1</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\obj_player</object>
-    <object>objects\obj_end_of_map</object>
-    <object>objects\obj_ground</object>
-    <object>objects\obj_wall</object>
-    <object>objects\obj_end</object>
-    <object>objects\obj_start_start</object>
-    <object>objects\obj_start_exit</object>
-    <object>objects\obj_start_back</object>
-    <object>objects\object_resume</object>
-    <object>objects\obj_start_settings</object>
-    <object>objects\obj_start_credits</object>
-    <object>objects\obj_room_recorder</object>
-    <object>objects\obj_credits_music_by_Jay_Man</object>
-    <object>objects\obj_credits_In_Light_Of_Darkness</object>
-    <object>objects\obj_title_music</object>
-    <object>objects\obj_settings_volume_bar</object>
-    <object>objects\obj_settings_volume_slider</object>
-    <object>objects\obj_black</object>
-    <object>objects\obj_settings_fullscreen</object>
+    <objects name="Menu">
+      <object>objects\obj_start_exit</object>
+      <object>objects\obj_start_start</object>
+      <object>objects\obj_start_back</object>
+      <object>objects\object_resume</object>
+      <object>objects\obj_start_settings</object>
+      <object>objects\obj_start_credits</object>
+      <objects name="Settings">
+        <object>objects\obj_settings_fullscreen</object>
+        <object>objects\obj_settings_volume_slider</object>
+        <object>objects\obj_settings_volume_bar</object>
+      </objects>
+      <objects name="Credits">
+        <object>objects\obj_credits_In_Light_Of_Darkness</object>
+        <object>objects\obj_credits_music_by_Jay_Man</object>
+      </objects>
+    </objects>
+    <objects name="Gameplay">
+      <object>objects\obj_player</object>
+      <object>objects\obj_end_of_map</object>
+      <object>objects\obj_ground</object>
+      <object>objects\obj_wall</object>
+      <object>objects\obj_end</object>
+    </objects>
+    <objects name="Hidden">
+      <object>objects\obj_room_recorder</object>
+      <object>objects\obj_title_music</object>
+    </objects>
+    <objects name="Other">
+      <object>objects\obj_black</object>
+    </objects>
+    <objects name="GUI">
+      <object>objects\obj_health</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_start</room>
