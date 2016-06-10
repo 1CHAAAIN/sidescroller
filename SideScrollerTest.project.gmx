@@ -29,6 +29,7 @@
     <sprites name="Gameplay">
       <sprite>sprites\spr_player</sprite>
       <sprite>sprites\spr_test_enemy</sprite>
+      <sprite>sprites\spr_test_enemy_jumping</sprite>
       <sprite>sprites\spr_end_of_map</sprite>
       <sprite>sprites\spr_ground</sprite>
       <sprite>sprites\spr_wall</sprite>
@@ -69,7 +70,9 @@
       </scripts>
       <scripts name="test enemy">
         <script>scripts\scr_test_enemy_left_state.gml</script>
+        <script>scripts\scr_test_enemy_jumping_left_state.gml</script>
         <script>scripts\scr_test_enemy_right_state.gml</script>
+        <script>scripts\scr_test_enemy_jumping_right_state.gml</script>
         <script>scripts\scr_test_enemy_follow_state.gml</script>
         <script>scripts\scr_test_enemy_wait_state.gml</script>
         <script>scripts\scr_test_enemy_return_state.gml</script>
@@ -109,6 +112,8 @@
       <object>objects\obj_lava</object>
       <object>objects\obj_end</object>
       <object>objects\obj_test_enemy</object>
+      <object>objects\obj_test_enemy_jumping</object>
+      <object>objects\obj_test_enemy_jumping2</object>
     </objects>
     <objects name="Hidden">
       <object>objects\obj_room_recorder</object>
@@ -124,6 +129,8 @@
   </objects>
   <timelines name="timelines">
     <timeline>timelines\tl_test_enemy_ai</timeline>
+    <timeline>timelines\tl_test_enemy_jumping_ai</timeline>
+    <timeline>timelines\tl_test_enemy_jumping2_ai</timeline>
     <timeline>timelines\tl_moving_wall</timeline>
   </timelines>
   <rooms name="rooms">
