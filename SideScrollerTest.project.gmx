@@ -36,6 +36,8 @@
       <sprite>sprites\spr_wall</sprite>
       <sprite>sprites\spr_lava</sprite>
       <sprite>sprites\spr_end</sprite>
+      <sprite>sprites\spr_boss</sprite>
+      <sprite>sprites\spr_boss_attack</sprite>
     </sprites>
     <sprites name="Other">
       <sprite>sprites\spr_black</sprite>
@@ -79,10 +81,20 @@
         <script>scripts\scr_test_enemy_return_state.gml</script>
       </scripts>
       <script>scripts\scr_enemy_wait.gml</script>
+      <scripts name="boss">
+        <script>scripts\scr_boss_left.gml</script>
+        <script>scripts\scr_boss_right.gml</script>
+        <script>scripts\scr_boss_shoot.gml</script>
+        <script>scripts\scr_boss_jump_shoot.gml</script>
+      </scripts>
     </scripts>
     <scripts name="Environment">
       <script>scripts\scr_moving_wall_left.gml</script>
       <script>scripts\scr_moving_wall_right.gml</script>
+    </scripts>
+    <scripts name="death toll">
+      <script>scripts\scr_save_death_toll.gml</script>
+      <script>scripts\scr_load_death_toll.gml</script>
     </scripts>
   </scripts>
   <objects name="objects">
@@ -116,6 +128,11 @@
       <object>objects\obj_test_enemy</object>
       <object>objects\obj_test_enemy_jumping</object>
       <object>objects\obj_test_enemy_jumping2</object>
+      <object>objects\obj_boss</object>
+      <object>objects\obj_boss_attack</object>
+      <object>objects\obj_final_moving_wall</object>
+      <object>objects\obj_stats</object>
+      <object>objects\obj_stats_record</object>
     </objects>
     <objects name="Hidden">
       <object>objects\obj_room_recorder</object>
@@ -134,6 +151,7 @@
     <timeline>timelines\tl_test_enemy_jumping_ai</timeline>
     <timeline>timelines\tl_test_enemy_jumping2_ai</timeline>
     <timeline>timelines\tl_moving_wall</timeline>
+    <timeline>timelines\tl_boss_ai</timeline>
   </timelines>
   <rooms name="rooms">
     <room>rooms\room_start</room>
