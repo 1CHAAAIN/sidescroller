@@ -11,6 +11,7 @@
   <sprites name="sprites">
     <sprites name="Menu">
       <sprite>sprites\spr_start_start</sprite>
+      <sprite>sprites\spr_gp_cursor</sprite>
       <sprite>sprites\spr_start_credits</sprite>
       <sprite>sprites\spr_start_resume</sprite>
       <sprite>sprites\spr_start_back</sprite>
@@ -101,6 +102,7 @@
         <object>objects\obj_credits_In_Light_Of_Darkness</object>
         <object>objects\obj_credits_music_by_Jay_Man</object>
       </objects>
+      <object>objects\obj_gp_menu</object>
     </objects>
     <objects name="Gameplay">
       <object>objects\obj_player</object>
